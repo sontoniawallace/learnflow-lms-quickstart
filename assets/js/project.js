@@ -10,8 +10,8 @@ textDirection:'ltr'
 Slide392:{
 lb:'',
 id:392,
-from:1,
-to:90,
+from:901,
+to:990,
 iols:0,
 i360qs:false,
 sdu:3,
@@ -6345,6 +6345,10 @@ bookmarks:[]
 ,
 qs:'',
 iph:{
+4073:{
+ts:''
+}
+,
 1180:{
 ts:''
 }
@@ -6358,10 +6362,6 @@ ts:''
 }
 ,
 1276:{
-ts:''
-}
-,
-4073:{
 ts:''
 }
 ,
@@ -10219,6 +10219,10 @@ bookmarks:[]
 ,
 qs:'',
 iph:{
+4079:{
+ts:''
+}
+,
 2290:{
 ts:''
 }
@@ -10232,10 +10236,6 @@ ts:''
 }
 ,
 2297:{
-ts:''
-}
-,
-4079:{
 ts:''
 }
 ,
@@ -14406,15 +14406,15 @@ bookmarks:[]
 ,
 qs:'',
 iph:{
-4085:{
-ts:''
-}
-,
 2965:{
 ts:''
 }
 ,
 2984:{
+ts:''
+}
+,
+4085:{
 ts:''
 }
 ,
@@ -19242,6 +19242,14 @@ bookmarks:[]
 ,
 qs:'',
 iph:{
+3589:{
+ts:''
+}
+,
+3601:{
+ts:''
+}
+,
 3485:{
 ts:''
 }
@@ -19255,14 +19263,6 @@ ts:''
 }
 ,
 3492:{
-ts:''
-}
-,
-3589:{
-ts:''
-}
-,
-3601:{
 ts:''
 }
 ,
@@ -23220,7 +23220,7 @@ passFailPassingScoreTypeInPrecent:true,
 passFailPassingScoreValue:80,
 showRetake:false,
 showReviewButtons:true,
-oid:'$$OBJECTIVE_ID',
+oid:'Quiz_2026928152235',
 quizVariableVsIdMap:{
 learnerId:'var347',
 learnerName:'var348',
@@ -23623,10 +23623,10 @@ kCPDropReject:''
 }
 ,
 prjBgColor:'#ffffff',
-pkt:0,
+pkt:1,
 htmlBgColor:'#f5f4f1',
 shc:false,
-pN:'LearnFlow_LMS_QuickStart_FunctionalComplete_v1_14Sep26.cpt'
+pN:'LearnFlow_LMS_QuickStart_Portfolio_Final_28Sep26.cpt'
 },
 projectThemeData:{
 customisations:'{"user_renames":{"text-heading-1":"Course Title","text-heading-2":"Screen Title","text-heading-3":"Section Heading","text-heading-4":"Card Heading","text-heading-5":"Content Heading","text-heading-6":"Instruction Heading","text-heading-7":"Small Heading/Label","text-heading-8":"Eyebrow Label","text-heading-9":"Micro Heading","text-body-1":"Body Text","text-body-2":"Supporting Text","text-body-3":"Compact Body","text-body-4":"Instruction Text","text-body-5":"Caption Text","text-body-6":"Helper Text"}}',
@@ -23665,7 +23665,7 @@ slides:'Slide429,Slide654,Slide765,Slide1672,Slide2774,Slide3463,Slide4056',
 questions:'',
 autoplay:false,
 preloader:true,
-preloaderFileName:'dr/loading.gif',
+preloaderFileName:'dr/04107.png',
 preloaderPercentage:100,
 pprtd:false,
 peon:false,
@@ -23749,6 +23749,15 @@ cp.model.projectImages=[
 'assets/htmlimages/placeholder.png'
 ];
 cp.model.data.images=[{
+ip:'dr/04107.png',
+ipiv:{
+430:1,
+768:1,
+1366:1
+}
+
+}
+,{
 ip:'dr/0527.svg',
 ipiv:{
 430:1,
@@ -23808,7 +23817,14 @@ resources:['dr/0527.svg']
 
 }
 ];
-cp.model.audioresources=[];
+cp.model.audioresources=[{
+slideID:0,
+ResourceList:{
+resources:['ar/KeyClick.mp3']
+}
+
+}
+];
 cp.model.videoresources=[];
 cp.model.videos=[
 ];
@@ -23817,6 +23833,7 @@ cp.model.slideVideos=[
 cp.model.tocVideos=[
 ];
 cp.model.audios=[
+'ar/KeyClick.mp3'
 ];
 
 cp.initVariables = function(){
